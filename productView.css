@@ -1,0 +1,21 @@
+form{
+    display: grid;
+    grid-template: auto / 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.eachproduct {
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+    padding: 1rem;
+}
+.pageview {
+    grid-column: 1 / 5;
+}
+form > div > span {
+    display: block;
+    text-align: start;
+}
+form > h1 {
+    grid-column: 1 / 5;
+}

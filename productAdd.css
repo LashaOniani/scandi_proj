@@ -1,0 +1,26 @@
+.formview{
+    margin-top: 1.5rem;
+    display: flex;
+}
+.formlabels,
+.forminputs {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+input,
+label,
+select{
+    margin-bottom: 0.6rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.red_input{
+    border: 1px solid red;
+}
+.green_input{
+    border: 1px solid green;
+}
